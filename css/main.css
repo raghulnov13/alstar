@@ -107,3 +107,59 @@ body{
     padding-right: 4px;
     color: #00c1c1;
 }
+.card-flex{
+    display: flex;
+    
+    
+}
+.card{
+    margin-right: 15px;
+
+}
+.card-image{
+    width: 100%;
+    
+
+}
+.card-image img{
+    width: 100%;
+    height: auto;
+}
+.card-body{
+    text-align: center;
+
+}
+.card-body h5{
+    font-family: "Raleway", sans-serif;
+    margin-top: 10px;
+
+}
+.card-body h5 a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #334242;
+    transition: 0.3s;
+}
+.card-body p{
+    width: 80%;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px
+
+}
+.card-body a {
+    text-decoration: none;
+    
+    
+}
+.btn{
+    border-radius: 4px;
+    padding: 6px 20px 8px 20px;
+    border: 2px solid #444444;
+}
+
+.btn{
+
+}
