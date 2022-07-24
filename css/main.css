@@ -69,6 +69,12 @@ body {
 }
 
 /* about */
+.about-title{
+    text-align: center;
+    /* padding-top: 60px; */
+    padding-bottom: 30px;
+    margin-top: 60px;
+}
 .about-title h2 {
     font-size: 32px;
     font-weight: bold;
@@ -80,13 +86,15 @@ body {
 }
 
 .about-title p {
-    line-height: 20px;
+    width: 90%;
+    line-height: 24px;
+    margin-left: 15px;
 }
 
-.about-flex {}
-
 .about-image {
-    width: 50%;
+    width: 70%;
+    height: auto;
+    margin-right: 30px;
 }
 
 .about-image img {
@@ -96,27 +104,32 @@ body {
 
 .about-content {
     width: 70%;
-
+    /* align-items: center; */
+    
 }
 
 .about-content h3 {
     font-weight: 600;
     font-size: 26px;
+    margin-bottom: 15px;
 }
 
 .about-content p {
     font-style: italic !important;
+    margin-bottom: 15px;
 }
 
 .about-flex {
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .about-content ul {}
 
 .about-content ul li {
     list-style-type: none;
+    margin-bottom: 15px;
 }
 
 .about-content ul li i {
@@ -124,8 +137,11 @@ body {
     padding-right: 4px;
     color: #00c1c1;
 }
+.end p{
+    line-height: 25px;
+}
 
-/* <!-- cards --> */
+/* cards */
 .card-flex {
     display: flex;
 
@@ -168,11 +184,12 @@ body {
 }
 
 .card-body p {
-    width: 80%;
-    text-align: center;
+    width: 83%;
+    font-family: sans-serif;
     line-height: 25px;
     margin-top: 10px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .card-body a {
@@ -196,7 +213,7 @@ body {
 
 .section-title {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 30px;
     margin-top: 60px;
 
@@ -206,18 +223,23 @@ body {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
     color: #334242;
 
 }
 
-.section-title p {}
+.section-title p {
+    width: 90%;
+    line-height: 25px;
+    margin-left: 15px;
+}
 
 .services-flex {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 
 .services-box {
@@ -226,7 +248,9 @@ body {
     padding: 30px;
     border-radius: 6px;
     background: #fff;
-    width: 45%;
+    width: 43%;
+    margin-right: 20PX;
+    
 }
 
 
@@ -244,7 +268,9 @@ body {
 
 }
 
-.services-text {}
+.services-text {
+    
+}
 
 .services-text h4 {
     margin-left: 20px;
