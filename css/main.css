@@ -340,3 +340,89 @@ body {
     border: 2px solid #fff;
     color: #fff;
 }
+/* team */
+.team{
+    background: #fff;
+    padding: 60px 0;
+}
+.team-title{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.team-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #334242;
+
+}
+.team-title p{
+    line-height: 25px;
+    width: 89%;
+    margin-left: 50px;
+
+}
+.team-flex{
+    display: flex;
+}
+.team-member{
+    margin-right: 20px;
+
+}
+.member-img{
+    position: relative;
+    overflow: hidden;
+
+}
+.member-img img{
+    width: 100%;
+    height: auto;
+}
+.member-info{
+    padding: 25px 15px;
+}
+.member-info h4{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #334242;
+}
+.member-info span{
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.social{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a{
+    transition: color 0.3s;
+    color: #334242;
+    margin: 0 3px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    background: rgba(0, 193, 193, 0.8);
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a li{
+    font-size: 18px;
+}
