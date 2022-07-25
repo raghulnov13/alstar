@@ -69,13 +69,14 @@ body {
 }
 
 /* about */
-.about-title{
+.service-title {
     text-align: center;
-    /* padding-top: 60px; */
+    padding-top: 60px;
     padding-bottom: 30px;
     margin-top: 60px;
 }
-.about-title h2 {
+
+.section-title h2 {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
@@ -85,7 +86,7 @@ body {
     color: #334242;
 }
 
-.about-title p {
+.section-title p {
     width: 90%;
     line-height: 24px;
     margin-left: 15px;
@@ -105,7 +106,7 @@ body {
 .about-content {
     width: 70%;
     /* align-items: center; */
-    
+
 }
 
 .about-content h3 {
@@ -137,7 +138,8 @@ body {
     padding-right: 4px;
     color: #00c1c1;
 }
-.end p{
+
+.end p {
     line-height: 25px;
 }
 
@@ -250,7 +252,7 @@ body {
     background: #fff;
     width: 43%;
     margin-right: 20PX;
-    
+
 }
 
 
@@ -268,9 +270,7 @@ body {
 
 }
 
-.services-text {
-    
-}
+.services-text {}
 
 .services-text h4 {
     margin-left: 20px;
@@ -340,17 +340,16 @@ body {
     border: 2px solid #fff;
     color: #fff;
 }
-/* team */
-.team{
-    background: #fff;
-    padding: 60px 0;
-}
-.team-title{
+
+/* portfolio */
+
+/* pricing */
+.section-title {
     text-align: center;
     padding-bottom: 30px;
-    
 }
-.team-title h2{
+
+.section-title h2 {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
@@ -360,44 +359,157 @@ body {
     color: #334242;
 
 }
-.team-title p{
+
+.section-title p {
+    line-height: 25px;
+    width: 89%;
+    margin-left: 50px;
+}
+.price-box{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #e5ebeb;
+    
+}
+.price-box h3{
+    font-weight: 400;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #334242;
+
+}
+.price-box h4{
+    font-size: 42px;
+    color: #00c1c1;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px
+
+}
+.price-box h4 sub{
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+.price-box h4 span{
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+.price-box ul{
+    padding: 0;
+    list-style: none;
+    color: #334242;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+.price-box ul li{
+    padding-bottom: 16px;
+
+}
+.price-box ul .na{
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.btn-wrap{
+    padding: 15px;
+    text-align: center;
+}
+.btn-wrap a{
+    color: #00c1c1;
+    text-decoration: none;
+}
+.btn-buy{
+    background: #00c1c1;
+    display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 4px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* team */
+.team {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #334242;
+
+}
+
+.section-title p {
     line-height: 25px;
     width: 89%;
     margin-left: 50px;
 
 }
-.team-flex{
+
+.team-flex {
     display: flex;
 }
-.team-member{
+
+.team-member {
     margin-right: 20px;
 
 }
-.member-img{
+
+.member-img {
     position: relative;
     overflow: hidden;
 
 }
-.member-img img{
+
+.member-img img {
     width: 100%;
     height: auto;
 }
-.member-info{
+
+.member-info {
     padding: 25px 15px;
 }
-.member-info h4{
+
+.member-info h4 {
     font-weight: 700;
     margin-bottom: 10px;
     font-size: 18px;
     color: #334242;
 }
-.member-info span{
+
+.member-info span {
     display: block;
     font-size: 13px;
     font-weight: 400;
-    
+
 }
-.social{
+
+.social {
     position: absolute;
     left: 0;
     bottom: 30px;
@@ -408,7 +520,8 @@ body {
     align-items: center;
     justify-content: center;
 }
-.social a{
+
+.social a {
     transition: color 0.3s;
     color: #334242;
     margin: 0 3px;
@@ -423,6 +536,62 @@ body {
     align-items: center;
     justify-content: center;
 }
-.social a li{
+
+.social a li {
     font-size: 18px;
+}
+
+/* contact */
+.contact {
+    background-color: #f0f4f4;
+    /* padding: 60px 0; */
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #334242;
+
+}
+
+.section-title p {
+    line-height: 25px;
+    width: 89%;
+    margin-left: 50px;
+
+}
+
+.info-box {}
+
+.info-box i {
+    font-size: 40px;
+    color: #00c1c1;
+    border-radius: 50%;
+    padding: 8px;
+
+}
+
+.box h3 {
+    font-size: 20px;
+    color: #334242;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+
 }
