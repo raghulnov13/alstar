@@ -365,15 +365,19 @@ body {
     width: 89%;
     margin-left: 50px;
 }
+.pricing-table{
+    display: flex;
+    justify-content: center;
+}
 .price-box{
-    padding: 20px;
+    padding: 20px 80px 10px;
     background: #fff;
     text-align: center;
     border-radius: 8px;
     position: relative;
     overflow: hidden;
     border: 2px solid #e5ebeb;
-    
+    margin-right: 30px;
 }
 .price-box h3{
     font-weight: 400;
@@ -424,7 +428,7 @@ body {
     text-align: center;
 }
 .btn-wrap a{
-    color: #00c1c1;
+    color: white;
     text-decoration: none;
 }
 .btn-buy{
