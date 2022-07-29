@@ -409,7 +409,7 @@ body {
 }
 .Portfolio-flexbox{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     
 }
 
