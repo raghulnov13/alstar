@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    padding-top: 70px;
 }
 
 .container {
@@ -11,6 +12,10 @@ body {
 }
 
 .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     height: 70px;
     background: #00c1c1;
 }
@@ -130,6 +135,7 @@ body {
     padding-top: 60px;
     padding-bottom: 30px;
     margin-top: 60px;
+    position: relative;
 }
 
 .section-title h2 {
