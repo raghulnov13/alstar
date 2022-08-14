@@ -299,12 +299,15 @@ body {
 }
 
 .btn {
+    display: inline-block;
     border-radius: 4px;
     padding: 6px 20px 8px 20px;
     border: 2px solid #444444;
 }
 
-.btn {}
+.btn:hover {
+    border-color: #00c1c1;
+}
 
 /* services */
 .services {
@@ -371,6 +374,7 @@ body {
 .services-text {}
 
 .services-text h4 {
+    
     margin-left: 20px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -379,6 +383,7 @@ body {
 }
 
 .services-text h4 a {
+    display: inline-block;
     text-decoration: none;
     color: #334242;
     transition: 0.3s;
@@ -424,19 +429,24 @@ body {
 
 }
 
-.cta .cta-btn {
+.cta-btn {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 8px 28px;
+    padding: 10px 28px;
     border-radius: 4px;
     transition: 0.5s;
     margin-top: 10px;
     border: 2px solid #fff;
     color: #fff;
+    transition: .3s ease;
+}
+.cta-btn:hover{
+    background-color: #00c1c1;
+    border-color: #00c1c1;
 }
 
 /* portfolio */
@@ -508,7 +518,6 @@ body {
 
 .portfolio-flex {
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
 
 }
@@ -638,6 +647,7 @@ body {
 }
 
 .price-box ul li {
+    /* display: inline-block; */
     padding-bottom: 16px;
 
 }
