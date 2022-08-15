@@ -186,7 +186,7 @@ body {
     width: 50%;
     height: auto;
     margin-right: 30px;
-    margin-left: 40px;
+    
 }
 
 .about-image img {
@@ -751,17 +751,18 @@ body {
 
 .social {
     position: absolute;
-    left: 0;
-    bottom: 30px;
-    right: 0;
+    left: 30px;
+    right: 30px;
+    bottom: 20px;
     opacity: 0;
-    transition: ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .social a {
+    text-decoration: none;
     transition: color 0.3s;
     color: #334242;
     margin: 0 3px;
@@ -780,7 +781,10 @@ body {
 .social a li {
     font-size: 18px;
 }
-
+.team-member:hover .social{
+    opacity: 1;
+    padding: 5px;
+}
 /* contact */
 .contact {
     background-color: #f0f4f4;
@@ -980,10 +984,14 @@ form button[type=submit] {
     width: 36px;
     height: 36px;
     transition: 0.3s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
-.social-links a i {
-    text-align: center;
+.social-links a:hover {
+    background-color: #00c1c1;
 }
 
 .footer-links {
@@ -1019,7 +1027,7 @@ form button[type=submit] {
     display: inline-block;
     line-height: 1;
     text-decoration: none;
-
+    
 
 
 }
