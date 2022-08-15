@@ -717,7 +717,8 @@ body {
 
 .team-member {
     margin-right: 20px;
-
+    border: 2px solid rgba(226, 217, 217, 0.712);
+    
 }
 
 .member-img {
@@ -733,6 +734,7 @@ body {
 
 .member-info {
     padding: 25px 15px;
+   
 }
 
 .member-info h4 {
@@ -753,7 +755,7 @@ body {
     position: absolute;
     left: 30px;
     right: 30px;
-    bottom: 20px;
+    top: 220px;
     opacity: 0;
     transition: all ease-in-out 0.3s;
     display: flex;
@@ -860,6 +862,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     
+    
 }
 
 .map {
@@ -884,7 +887,7 @@ body {
 
 .input-group {
     padding: 30px;
-    margin-bottom: 30px;
+    
 
 }
 
